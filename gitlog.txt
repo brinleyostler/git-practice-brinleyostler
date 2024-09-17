@@ -1,0 +1,19 @@
+5b51a99 add git history files
+9bab2e2 Merge pull request #1 from samrich277/feature-samrich277
+8045056 add a fully new file
+ef8ad69 resolve conflicts in new_features.txt
+6be2df9 change new_feature.txt in features
+79a43eb change new_feature.txt content
+1bfac55 merge branch features into main
+ae6df93 add new features
+6f38e05 add empty file
+17b675c add new_features.txt
+3d967d4 update file_1.txt
+c667a52 add features to empty file
+c9c1e88 add empty file
+35e30cc add Readme.md file
+4fa566c update .gitignore file
+668ed81 add .gitignore file
+cd89638 adding only file_2
+468521c adding only file_1
+84d7f23 create new files
