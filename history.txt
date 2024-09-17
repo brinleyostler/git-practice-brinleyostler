@@ -1,0 +1,174 @@
+   64  git --version
+   65  cd ~/Desktop/git-demo-example\ngit init
+   66  cd ~/Desktop/git-demo-example\ngit init
+   68  git add fruit.txt veggies.txt
+   69  git add fruits.txt veggies.txt
+   70  git status
+   71  git commit -m “My First Commit”
+   72  git commit -m "My First Commit"
+   73  git add .\ngit commit -m "Changed pumpkin from veggie to fruit"
+   74  git log
+   75  git add fruits.txt\ngit commit -m "Removed duplicate fruits"
+  106  git@github.com:brinleyostler/KaggleBikeShare.git
+  107  git clone git@github.com:brinleyostler/KaggleBikeShare.git
+  113  git --version
+  114  git config --global brinleyostler "Brinley Ostler"
+  115  git branch
+  116  git branch
+  225  git --version
+  226  git status
+  227  git config --global core.editor "code --wait"
+  228  git config --global init.defaultBranch main
+  229  git config --list
+  236  mkdir git-practice
+  239  cd git-practice
+  241  git status
+  242  git init
+  246  git status
+  248  rm -rf .git
+  250  git status
+  251  git init
+  256  mkdir git-practice-brinleyostler
+  258  cd git-practice-brinleyostler
+  260  git init
+  262  git status
+  267  git status
+  268  git add file_1.txt
+  269  git add file_2.txt
+  270  git status
+  271  git commit -m "create new files"
+  272  git status
+  273  git log
+  274  git status
+  275  git add file_1.txt
+  276  git commit -m "adding only file_1"
+  277  git status
+  278  git add file_2.txt
+  279  git commit -m "adding only file_2"
+  280  git log
+  298  cd git-practice-brinleyostler
+  308  cd git-practice-brinleyostler
+  310  git log
+  312  git status
+  313  touch .gitignore
+  314  git add .gitignore
+  315  git commit -m "add .gitignore file"
+  316  git add .gitignore
+  317  git commit -m "update .gitignore file"
+  318  git add Readme.md
+  319  git commit -m "add Readme.md file"
+  323  git add .gitignore
+  324  git status
+  325  git status
+  326  git remote -v
+  327  git remote add origin git@github.com:brinleyostler/git-practice-brinleyostler.git
+  328  git remote -v
+  329  git push -u origin main
+  330  git branch features
+  331  git switch features
+  332  git log
+  333  git log --oneline
+  335  git add new_features.txt
+  336  git commit -m 
+  337  git commit -m "add empty file"
+  338  git add new_features.txt
+  339  git commit -m "add features to empty file"
+  340  git switch main
+  342  git add file_1.txt
+  343  git commit -m "update file_1.txt"
+  344  git merge features
+  345  git merge features
+  346  git status
+  347  git switch features
+  348  git merge --quit
+  349  git status
+  350  git switch features
+  351  git push
+  352  git push -u origin main
+  353  git switch main
+  354  git merge features
+  355  git merge features
+  356  git merge --quit
+  357  git status
+  358  git commit -m "add new_features.txt"
+  359  git push
+  360  git merge features
+  361  git commit
+  362  git merge --quit
+  363  git switch features
+  364  git status
+  365  git switch main
+  366  git status
+  370  git switch features
+  373  git add new_features.txt
+  374  git commit -m "add empty file\n"
+  375  git commit -m "add new features"
+  376  git add new_features.txt
+  377  git commit -m "add new features"
+  378  git switch main
+  380  git branch
+  381  git fetch --all
+  382  git branch -a
+  383  git branch -r
+  384  git status
+  385  git switch features
+  386  git status
+  387  git switch main
+  388  git merge features
+  395  cd git-practice-brinleyostler
+  397  git branch
+  398  git merge features
+  399  git status
+  400  git commit -m "merge branch features into main"
+  401  git push
+  402  git log
+  403  git branch
+  404  git add new_features.txt
+  405  git commit -m "change new_feature.txt content"
+  406  git switch features
+  407  git add new_features.txt
+  408  git commit -m "change new_feature.txt in features"
+  409  git switch main
+  410  git merge features
+  411  git add new_features.txt
+  412  git commit -m "resolve conflicts in new_features.txt"
+  413  git merge features
+  414  git branch -d features
+  415  git push
+  436  git clone git@github.com:esnt/another-stat386-theme.git
+  438  git remote set-url origin git@github.com:brinleyostler/data-science-blog.git\n
+  439  git remote add origin git@github.com:brinleyostler/data-science-blog.git\n
+  440  git remote -v
+  441  git add .
+  442  git reset
+  444  git add .
+  445  git commit -m "add all theme files"
+  446  git push
+  447  git remote set-url origin git@github.com:brinleyostler/data-science-blog.git\n
+  448  git add .
+  449  git commit -m "add all theme files"
+  450  git push
+  452  git add _config.yml
+  453  git commit -m "update blog configuration"
+  454  git push
+  455  git add _config.yml
+  456  git commit -m "update blog about"
+  457  git push
+  458  git add _config.yml
+  459  git commit -m "update linkedin"
+  460  git push
+  461  git add _config.yml
+  462  git commit -m "update linkedin"
+  463  git push
+  473  git clone git-practice-KimmyBeeW:main
+  474  git clone git@github.com:brinleyostler/git-practice-KimmyBeeW.git
+  476  cd git-practice-KimmyBeeW
+  478  git branch feature-brinleyostler
+  479  git branch
+  480  git switch feature-brinleyostler
+  482  git add file_1.txt
+  483  git commit -m "update file_1.txt"
+  484  git push origin feature-brinleyostler
+  487  cd git-practice-brinleyostler
+  488  git pull
+  490  git log --online > gitlog.txt
